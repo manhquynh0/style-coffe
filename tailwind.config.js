@@ -4,7 +4,11 @@ module.exports = {
     "./public/**/*.{html,js}",
   ],
   theme: {
-    extend: {},
+    extend: {
+    colors: {
+        ManhQuynhDev: "#00FF00",
+      },
+    },
   },
   plugins: [],
 }
