@@ -20,3 +20,12 @@
 .tqd-badge-circle{
     @apply  flex justify-center items-center rounded-full p-1.5
 }
+.mq-subheadline-deco-line{
+    @apply flex
+}
+.mq-subheadline-label{
+    @apply font-medium text-sm 
+}
+.mq-subheadline{
+    @apply flex justify-center items-center mb-[100px]
+}

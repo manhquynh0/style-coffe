@@ -590,6 +590,10 @@ video {
   margin-right: auto;
 }
 
+.mb-\[100px\] {
+  margin-bottom: 100px;
+}
+
 .mt-5 {
   margin-top: 1.25rem;
 }
@@ -620,10 +624,6 @@ video {
 
 .w-full {
   width: 100%;
-}
-
-.max-w-4xl {
-  max-width: 56rem;
 }
 
 .max-w-screen-2xl {
@@ -708,19 +708,14 @@ video {
   background-color: rgb(249 115 22 / var(--tw-bg-opacity, 1));
 }
 
-.bg-slate-200 {
+.bg-slate-100 {
   --tw-bg-opacity: 1;
-  background-color: rgb(226 232 240 / var(--tw-bg-opacity, 1));
+  background-color: rgb(241 245 249 / var(--tw-bg-opacity, 1));
 }
 
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
-}
-
-.bg-amber-800 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(146 64 14 / var(--tw-bg-opacity, 1));
 }
 
 .bg-bgcoffe {
@@ -739,12 +734,12 @@ video {
   background-repeat: no-repeat;
 }
 
-.p-\[16px\] {
-  padding: 16px;
-}
-
 .p-4 {
   padding: 1rem;
+}
+
+.p-\[16px\] {
+  padding: 16px;
 }
 
 .px-4 {
@@ -767,11 +762,6 @@ video {
   padding-bottom: 0.5rem;
 }
 
-.py-20 {
-  padding-top: 5rem;
-  padding-bottom: 5rem;
-}
-
 .py-5 {
   padding-top: 1.25rem;
   padding-bottom: 1.25rem;
@@ -788,6 +778,11 @@ video {
 
 .font-Karla {
   font-family: Karla, sans-serif;
+}
+
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
 }
 
 .text-\[10px\] {
@@ -819,11 +814,6 @@ video {
   line-height: 1rem;
 }
 
-.text-2xl {
-  font-size: 1.5rem;
-  line-height: 2rem;
-}
-
 .font-bold {
   font-weight: 700;
 }
@@ -840,16 +830,13 @@ video {
   text-transform: uppercase;
 }
 
-.leading-10 {
-  line-height: 2.5rem;
-}
-
-.leading-6 {
-  line-height: 1.5rem;
-}
-
 .leading-8 {
   line-height: 2rem;
+}
+
+.text-amber-700 {
+  --tw-text-opacity: 1;
+  color: rgb(180 83 9 / var(--tw-text-opacity, 1));
 }
 
 .text-black {
@@ -865,21 +852,6 @@ video {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity, 1));
-}
-
-.text-red-400 {
-  --tw-text-opacity: 1;
-  color: rgb(248 113 113 / var(--tw-text-opacity, 1));
-}
-
-.text-red-200 {
-  --tw-text-opacity: 1;
-  color: rgb(254 202 202 / var(--tw-text-opacity, 1));
-}
-
-.text-amber-700 {
-  --tw-text-opacity: 1;
-  color: rgb(180 83 9 / var(--tw-text-opacity, 1));
 }
 
 .opacity-80 {
@@ -973,9 +945,21 @@ video {
   padding: 0.375rem;
 }
 
-.hover\:bg-amber-800:hover {
-  --tw-bg-opacity: 1;
-  background-color: rgb(146 64 14 / var(--tw-bg-opacity, 1));
+.mq-subheadline-deco-line {
+  display: flex;
+}
+
+.mq-subheadline-label {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  font-weight: 500;
+}
+
+.mq-subheadline {
+  margin-bottom: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .hover\:text-amber-950:hover {
@@ -1061,42 +1045,14 @@ video {
     left: 0px;
   }
 
-  .lg\:after\:-bottom-0::after {
-    content: var(--tw-content);
-    bottom: -0px;
-  }
-
   .lg\:after\:h-0\.5::after {
     content: var(--tw-content);
     height: 0.125rem;
   }
 
-  .lg\:after\:w-0::after {
-    content: var(--tw-content);
-    width: 0px;
-  }
-
   .lg\:after\:w-full::after {
     content: var(--tw-content);
     width: 100%;
-  }
-
-  .lg\:after\:bg-slate-900::after {
-    content: var(--tw-content);
-    --tw-bg-opacity: 1;
-    background-color: rgb(15 23 42 / var(--tw-bg-opacity, 1));
-  }
-
-  .lg\:after\:bg-amber-600::after {
-    content: var(--tw-content);
-    --tw-bg-opacity: 1;
-    background-color: rgb(217 119 6 / var(--tw-bg-opacity, 1));
-  }
-
-  .lg\:after\:bg-amber-200::after {
-    content: var(--tw-content);
-    --tw-bg-opacity: 1;
-    background-color: rgb(253 230 138 / var(--tw-bg-opacity, 1));
   }
 
   .lg\:after\:bg-amber-500::after {
@@ -1112,16 +1068,6 @@ video {
     transition-duration: 150ms;
   }
 
-  .lg\:after\:duration-200::after {
-    content: var(--tw-content);
-    transition-duration: 200ms;
-  }
-
-  .lg\:after\:duration-700::after {
-    content: var(--tw-content);
-    transition-duration: 700ms;
-  }
-
   .lg\:after\:duration-500::after {
     content: var(--tw-content);
     transition-duration: 500ms;
@@ -1135,11 +1081,6 @@ video {
   .lg\:after\:content-\[\'\'\]::after {
     --tw-content: '';
     content: var(--tw-content);
-  }
-
-  .hover\:lg\:after\:w-full:hover::after {
-    content: var(--tw-content);
-    width: 100%;
   }
 }
 
