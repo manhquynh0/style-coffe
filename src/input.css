@@ -29,3 +29,12 @@
 .mq-subheadline{
     @apply flex justify-center items-center mb-[100px]
 }
+.mq-price{
+    @apply text-amber-900 text-sm lg:text-[20px]
+}
+.mq-price-old{
+  @apply text-gray-500 line-through text-[10px] lg:text-sm
+}
+.mq-button{
+    @apply text-center text-xs px-2 py-3 lg:text-base bottom-3 uppercase cursor-pointer bg-white lg:px-4 lg:py-5 text-black font-bold  rounded-md mt-5
+}

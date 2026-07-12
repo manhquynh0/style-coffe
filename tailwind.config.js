@@ -20,10 +20,15 @@ module.exports = {
           '0%': { transform: 'translateX(0)', opacity: '1' },
           '100%': { transform: 'translateX(-100%)', opacity: '0' },
         },
+        fadeIn : {
+          from : {opacity : 0},
+          to : {opacity : 1}
+        }
       },
       animation: {
         'slide-in-left': 'slideInLeft 0.3s ease-out forwards',
         'slide-out-left': 'slideOutLeft 0.3s ease-in forwards',
+        'fadeIn' : 'fadeIn 0.3s ease-in-out'
       },
       backgroundImage : {
         bgcoffe : "url('./img/coffe.png')"
