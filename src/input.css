@@ -3,13 +3,20 @@
 @tailwind utilities;
 
 /* ct = custom */
+.mq-topmenu-active{
+    @apply cursor-pointer py-1 hover:text-ManhQuynhDev relative lg:after:absolute lg:after:bottom-0 lg:after:left-0 lg:after:bg-slate-900 lg:after:h-0.5
+                        lg:after:w-full
+}
+.mq-topmenu-open{
+    @apply absolute bg-white text-left w-1/2 left-0 top-0 p-5 rounded-r-lg
+}
 .ct-top-menu-item{
-    @apply cursor-pointer py-1 hover:text-ManhQuynhDev relative after:absolute after:bottom-0 after:left-0 after:bg-slate-900 after:h-0.5
-                        after:w-0 hover:after:w-full after:transition-all after:ease-in-out after:duration-200
+    @apply cursor-pointer py-1 hover:text-ManhQuynhDev relative lg:after:absolute lg:after:bottom-0 lg:after:left-0 lg:after:bg-slate-900 lg:after:h-0.5
+                        lg:after:w-0 hover:lg:after:w-full lg:after:transition-all lg:after:ease-in-out lg:after:duration-200
 }
 .tqd-icon{
     @apply w-5 h-5 inline-block
 }
 .tqd-badge-circle{
-    @apply text-xs text-center rounded-full p-1.5
+    @apply  flex justify-center items-center rounded-full p-1.5
 }

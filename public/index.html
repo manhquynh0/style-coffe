@@ -5,17 +5,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="icon" type="image/x-icon" href="./img/favicon/mq.png">
     <link href="./output.css" rel="stylesheet">
+    <script src ="./main.js" async ></script>
 </head>
 
 <body>
     <div id="root">
-        <div class="content-wrapper max-w-screen-2xl text-base mx-auto px-8 bg-slate-200 ">
+        <div class="content-wrapper font-Karla max-w-screen-2xl text-base mx-auto px-8 bg-slate-200 ">
             <header class="py-6 mx-10 ">
-                <nav class="flex flex-row justify-between items-center ">
-                    <div class="logo basis-2/6 text-center font-semibold text-xl">ManhQuynhDev.</div>
+                <nav class="flex items-center justify-between gap-4 py-2 relative">
+                    <div class="flex-none text-center font-semibold text-xl">ManhQuynhDev.</div>
                     <ul
-                        class="flex flex-row justify-between basis-3/6 items-center text-gray-500 gap-8 text-sm font-medium uppercase">
+                        id ="mq-top-menu" class=" hidden lg:flex lg:flex-1 lg:justify-center lg:items-center text-gray-500 lg:gap-8 text-sm font-medium uppercase">
                         <li class="ct-top-menu-item">
                             <a href="#">Home</a>
                         </li>
@@ -31,30 +33,49 @@
                         <li class="ct-top-menu-item">
                             <a href="#">Contact</a>
                         </li>
-                        <li class="ct-top-menu-item">
-                            <a href="#">ManhQuynhDev</a>
+                        <li class="ct-top-menu-item mq-topmenu-active">
+                            <a href="#" target ="blank">ManhQuynhDev</a>
                         </li>
                     </ul>
                     <ul
-                        class="badge basis-1/6 flex justify-start items-center text-sm ml-16 text-gray-500 font-medium uppercase">
-                        <li>
-                            <a href="" class ="flex items-center">
+                        class="  flex flex-1 justify-end lg:flex-none items-center text-sm text-gray-500 font-medium uppercase">
+                        <li class ='ct-top-menu-item'>
+                            <a href="" class="flex items-center">
+                                <div class="flex items-center relative">
                                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
                                     stroke-width="1.5" stroke="currentColor" class="tqd-icon">
                                     <path stroke-linecap="round" stroke-linejoin="round"
                                         d="M15.75 10.5V6a3.75 3.75 0 1 0-7.5 0v4.5m11.356-1.993 1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 0 1-1.12-1.243l1.264-12A1.125 1.125 0 0 1 5.513 7.5h12.974c.576 0 1.059.435 1.119 1.007ZM8.625 10.5a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm7.5 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Z" />
                                 </svg>
 
-                                <span class="mx-2 ">cart</span>
-                                <span class ="tqd-badge-circle text-white font-bold bg-orange-500">36</span>
+                            
+                                <span class=" absolute -top-2 -right-2 w-4 h-4 text-[10px] tqd-badge-circle  text-white font-bold bg-orange-500">36</span>
+                                </div>
+                                <span class="hidden sm:block mx-2">cart</span>
                             </a>
                         </li>
                     </ul>
+
+                    <div class="flex flex-0 lg:hidden items-center  cursor-pointer sm:px-4 ">
+                        <svg id ="mq-toggle-top-menu" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor" class="tqd-icon">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                        </svg>
+                    </div>
                 </nav>
             </header>
             <main>
-                <div class="slider">
-                    slider
+                <div class="slider h-[530px] bg-bgcoffe bg-cover bg-no-repeat bg-center">
+                    
+                    <div class="w-full h-full flex justify-center items-center bg-gray-900 opacity-80 ">
+                        <div class="mx-20 text-white text-center ">
+                            <div class="p-[16px]">Best Desginer For Website</div>
+                            <div class="text-lg font-semibold p-[16px]">MANH QUYNH DEVELOPER</div>
+                           <div class="flex justify-center items-center">
+                            <button class ="uppercase cursor-pointer bg-white px-4 py-5 text-black font-bold text-xs rounded-md mt-5">ClICK HERE FOR README</button>
+                           </div>
+                    </div>
                 </div>
                 <div class="story">
                     story

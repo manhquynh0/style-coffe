@@ -8,7 +8,7 @@ A responsive coffee shop landing page built with **HTML** and **Tailwind CSS v3*
 
 ---
 
-## 🚀 Features
+##  Features
 
 - Responsive design
 - Modern landing page UI
@@ -22,7 +22,7 @@ A responsive coffee shop landing page built with **HTML** and **Tailwind CSS v3*
 
 ---
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 - HTML5
 - Tailwind CSS v3
@@ -50,7 +50,7 @@ coffee-style/
 
 ---
 
-## ⚙️ Installation
+## Installation
 
 Clone the repository:
 
@@ -69,7 +69,7 @@ Run the project using **Live Server** in VS Code.
 
 ---
 
-## 📷 Screenshots
+##  Screenshots
 
 ### Home
 
@@ -95,7 +95,7 @@ Usage:
 
 ---
 
-## 📖 What I Learned
+##  What I Learned
 
 - Tailwind CSS Utility Classes
 - Flexbox Layout
