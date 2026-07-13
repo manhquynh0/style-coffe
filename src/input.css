@@ -36,5 +36,5 @@
   @apply text-gray-500 line-through text-[10px] lg:text-sm
 }
 .mq-button{
-    @apply text-center text-xs px-2 py-3 lg:text-base bottom-3 uppercase cursor-pointer bg-white lg:px-4 lg:py-5 text-black font-bold  rounded-md mt-5
+    @apply text-center text-xs px-2 py-3 lg:text-base bottom-3 uppercase cursor-pointer bg-white lg:px-3 lg:py-4 text-black font-bold  rounded-md mt-5
 }
