@@ -8,7 +8,7 @@
                         lg:after:w-full
 }
 .mq-topmenu-open{
-    @apply absolute bg-white text-left w-[65%] left-0 top-0 p-5 rounded-r-lg
+    @apply absolute bg-white text-left w-[85%] left-0 top-0 p-5 rounded-r-lg z-50 text-black font-extrabold
 }
 .ct-top-menu-item{
     @apply cursor-pointer py-1 hover:text-ManhQuynhDev relative lg:after:absolute lg:after:bottom-0 lg:after:left-0 lg:after:bg-slate-900 lg:after:h-0.5
